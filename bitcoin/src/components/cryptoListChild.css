@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(247, 238, 228);
+    font-family: Arial, Helvetica, sans-serif;
+}
+input {
+    margin-bottom: 3%;
+}
+input:hover {
+    background-color: #282c34f0;
+    color: aliceblue;
+}
+::-webkit-input-placeholder { 
+    color: orange;
+    text-align: center;
+}
+.blueCryptoSymbol {
+    color: blue;
+}
+.greenCryptoSymbol {
+    color: green;
+}
+.redCryptoSymbol {
+    color: red;
+}
+.list-group-item {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list-group-item:hover {
+    background-color: rgb(243, 243, 243);
+    cursor: pointer;
+}
